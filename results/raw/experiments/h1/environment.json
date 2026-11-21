@@ -1,0 +1,16 @@
+{
+  "version": "3.44",
+  "commit": "43dce6710b8df69685e3479c1d33a571dda714ea",
+  "git_status": "",
+  "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+  "executable_sha256": "91c1b8ddc4460d79f1d95855a7692dc67b6c29ae0e50f4bdae319ba6a3775590",
+  "profile": [
+    "CMAKE_BUILD_TYPE:STRING=release",
+    "NS3_ASSERT:BOOL=OFF",
+    "NS3_LOG:BOOL=OFF",
+    "NS3_NATIVE_OPTIMIZATIONS:BOOL=ON",
+    "NS3_OUTPUT_DIRECTORY:STRING=build/optimized"
+  ],
+  "workers": 3,
+  "started_utc": "2026-11-19T15:04:25.350782+00:00"
+}

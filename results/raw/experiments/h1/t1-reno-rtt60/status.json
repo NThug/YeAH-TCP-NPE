@@ -1,0 +1,18 @@
+{
+  "id": "t1-reno-rtt60",
+  "group": "T1",
+  "started_utc": "2026-11-19T15:59:18.575029+00:00",
+  "command": [
+    "./ns3",
+    "run",
+    "scratch/yeah-experiment --flows=2 --capacity=500 --bufferRatio=1 --duration=600 --loss=0 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=reno --tcp2=reno --rtt1=60 --rtt2=60 --flow2Start=0 --flow2Stop=600 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h1/t1-reno-rtt60",
+    "--no-build"
+  ],
+  "returncode": 0,
+  "wall_seconds": 3252.011969,
+  "samples": 60001,
+  "summary_sha256": "74c9c776c9ef7806e4be24515d12e678ae7e95eda4408dd10192b8f6e8b59e31",
+  "timeseries_sha256": "bd5a63208d7e4b504b6d083105a6318fc93eaef1c19bf937da04cf321c551d59",
+  "status": "PASS",
+  "ended_utc": "2026-11-19T16:48:55.961934+00:00"
+}

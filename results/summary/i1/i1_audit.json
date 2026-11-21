@@ -1,0 +1,42 @@
+{
+  "status": "VALIDATED_FROM_RAW_DATA",
+  "cases": 32,
+  "files_sha256_checked": 64,
+  "figure_file_count_checked": 40,
+  "group_results": {
+    "h1": {
+      "cases": 8,
+      "all_status": "PASS",
+      "figures_png": 7,
+      "figures_svg": 7
+    },
+    "h2": {
+      "cases": 8,
+      "all_status": "PASS",
+      "figures_png": 5,
+      "figures_svg": 5
+    },
+    "h3": {
+      "cases": 8,
+      "all_status": "PASS",
+      "figures_png": 4,
+      "figures_svg": 4
+    },
+    "h4": {
+      "cases": 8,
+      "all_status": "PASS",
+      "figures_png": 4,
+      "figures_svg": 4
+    }
+  },
+  "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+  "ns3_commit": "43dce6710b8df69685e3479c1d33a571dda714ea",
+  "method": "all 1,920,032 time series data rows read; metrics recomputed from raw counters",
+  "limitations": [
+    "One seed/run per case",
+    "No independent rerun of NS-3 in this I1 script",
+    "Figure file count only, not pixel identity",
+    "Paper testbed differs from NS-3",
+    "Whole-duration Jain on T0 not valid as concurrent-fairness metric"
+  ]
+}

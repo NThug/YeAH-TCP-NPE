@@ -1,0 +1,22 @@
+{
+  "id": "t0-yeah-yeah",
+  "group": "T0",
+  "params": {
+    "flows": 2,
+    "capacity": 500,
+    "bufferRatio": 1,
+    "duration": 600,
+    "loss": 0,
+    "seed": 1,
+    "run": 1,
+    "mss": 1448,
+    "initialCwnd": 10,
+    "initialSsthreshSegments": 0,
+    "tcp1": "yeah",
+    "tcp2": "yeah",
+    "rtt1": 80,
+    "rtt2": 80,
+    "flow2Start": 60,
+    "flow2Stop": 400
+  }
+}

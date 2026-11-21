@@ -1,0 +1,6 @@
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Finished executing the following commands:
+/usr/bin/cmake --build /home/hung/projects/ns-3.44/cmake-cache -j 11
+[0/1] [32mPASS[0m: TestSuite tcp-yeah-test
+1 of 1 tests passed (1 passed, 0 skipped, 0 failed, 0 crashed, 0 valgrind errors)

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "t2-reno-beta0p125",
+    "started_utc": "2026-11-20T04:06:36.165212+00:00",
+    "command": [
+      "./ns3",
+      "run",
+      "scratch/yeah-experiment --flows=2 --capacity=500 --rtt1=80 --rtt2=80 --duration=600 --loss=0 --flow2Start=0 --flow2Stop=600 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=reno --tcp2=reno --bufferRatio=0.125 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h2/t2-reno-beta0p125",
+      "--no-build"
+    ],
+    "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+    "returncode": 0,
+    "samples": 60001,
+    "buffer_packets": 416,
+    "summary_sha256": "d33c0b257c9c6f11f82cfb69173e7d9456e65bfc9796935e9706ba2de702a07d",
+    "timeseries_sha256": "6cec2a6e748d313d7465fd752956279671f58661d12b455b96fbab1426791748",
+    "goodput_total_mbps": 358.0682938667,
+    "wire_utilization": 0.7428433449,
+    "normalized_mean_queue": 0.0735803686,
+    "status": "PASS",
+    "wall_seconds": 984.149015,
+    "ended_utc": "2026-11-20T04:23:16.786695+00:00"
+  },
+  {
+    "id": "t2-reno-beta0p25",
+    "started_utc": "2026-11-20T04:23:16.788790+00:00",
+    "command": [
+      "./ns3",
+      "run",
+      "scratch/yeah-experiment --flows=2 --capacity=500 --rtt1=80 --rtt2=80 --duration=600 --loss=0 --flow2Start=0 --flow2Stop=600 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=reno --tcp2=reno --bufferRatio=0.25 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h2/t2-reno-beta0p25",
+      "--no-build"
+    ],
+    "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+    "returncode": 0,
+    "samples": 60001,
+    "buffer_packets": 833,
+    "summary_sha256": "8153ff28c9a6167fa15b83589639d23b21c973a585bad4dea5d0aeebeea0b33e",
+    "timeseries_sha256": "9c00237ac62c4b7342c027028287e1127f4da5704a1fc8e0d1a0b9aa8fad1ed0",
+    "goodput_total_mbps": 434.835848,
+    "wire_utilization": 0.9021059323,
+    "normalized_mean_queue": 0.2002713485,
+    "status": "PASS",
+    "wall_seconds": 1577.432112,
+    "ended_utc": "2026-11-20T04:50:02.346110+00:00"
+  },
+  {
+    "id": "t2-reno-beta0p5",
+    "started_utc": "2026-11-20T04:32:06.331060+00:00",
+    "command": [
+      "./ns3",
+      "run",
+      "scratch/yeah-experiment --flows=2 --capacity=500 --rtt1=80 --rtt2=80 --duration=600 --loss=0 --flow2Start=0 --flow2Stop=600 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=reno --tcp2=reno --bufferRatio=0.5 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h2/t2-reno-beta0p5",
+      "--no-build"
+    ],
+    "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+    "returncode": 0,
+    "samples": 60001,
+    "buffer_packets": 1666,
+    "summary_sha256": "1c87a61018b108cecc4cfe986688c77c1022207706f2834a342447602d646cc7",
+    "timeseries_sha256": "b5d6bc7f84f2f3cabdba346b528d5ffc4d4407e8652db4fefb67595a7a277713",
+    "goodput_total_mbps": 466.7755810133,
+    "wire_utilization": 0.9683676436,
+    "normalized_mean_queue": 0.4460305722,
+    "status": "PASS",
+    "wall_seconds": 2626.976113,
+    "ended_utc": "2026-11-20T05:16:28.592913+00:00"
+  },
+  {
+    "id": "t2-reno-beta1p0",
+    "started_utc": "2026-11-20T05:16:28.594813+00:00",
+    "command": [
+      "./ns3",
+      "run",
+      "scratch/yeah-experiment --flows=2 --capacity=500 --rtt1=80 --rtt2=80 --duration=600 --loss=0 --flow2Start=0 --flow2Stop=600 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=reno --tcp2=reno --bufferRatio=1.0 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h2/t2-reno-beta1p0",
+      "--no-build"
+    ],
+    "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+    "returncode": 0,
+    "samples": 60001,
+    "buffer_packets": 3333,
+    "summary_sha256": "8a2c5d57894238d8294d861504bf8b4b3c20f011d048e4ba0ca10d7a97381ef5",
+    "timeseries_sha256": "82b00ed5f8ced0a9e18ee5d42d18c4e2fb3865e8e091424b1b4968f729114f56",
+    "goodput_total_mbps": 481.23364864,
+    "wire_utilization": 0.9983621029,
+    "normalized_mean_queue": 0.5344116312,
+    "status": "PASS",
+    "wall_seconds": 3056.813517,
+    "ended_utc": "2026-11-20T06:08:01.031944+00:00"
+  },
+  {
+    "id": "t2-yeah-beta0p125",
+    "started_utc": "2026-11-20T04:06:36.165016+00:00",
+    "command": [
+      "./ns3",
+      "run",
+      "scratch/yeah-experiment --flows=2 --capacity=500 --rtt1=80 --rtt2=80 --duration=600 --loss=0 --flow2Start=0 --flow2Stop=600 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=yeah --tcp2=yeah --bufferRatio=0.125 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h2/t2-yeah-beta0p125",
+      "--no-build"
+    ],
+    "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+    "returncode": 0,
+    "samples": 60001,
+    "buffer_packets": 416,
+    "summary_sha256": "e4685de441c3a58f78d46dbcb4a8e0664ec819059ead09a34fdb6fead5691ac4",
+    "timeseries_sha256": "397db77f613eb5f4a8ae78108793ad123127ce84f42a0ec3da56fc03ed6912b7",
+    "goodput_total_mbps": 401.8072962133,
+    "wire_utilization": 0.8335853732,
+    "normalized_mean_queue": 0.101821274,
+    "status": "PASS",
+    "wall_seconds": 1398.590324,
+    "ended_utc": "2026-11-20T04:30:18.397929+00:00"
+  },
+  {
+    "id": "t2-yeah-beta0p25",
+    "started_utc": "2026-11-20T04:06:36.165282+00:00",
+    "command": [
+      "./ns3",
+      "run",
+      "scratch/yeah-experiment --flows=2 --capacity=500 --rtt1=80 --rtt2=80 --duration=600 --loss=0 --flow2Start=0 --flow2Stop=600 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=yeah --tcp2=yeah --bufferRatio=0.25 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h2/t2-yeah-beta0p25",
+      "--no-build"
+    ],
+    "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+    "returncode": 0,
+    "samples": 60001,
+    "buffer_packets": 833,
+    "summary_sha256": "75dfef541c829b6305c83db8fe8f5c8473a8d87c54545604b60278296fb4b0b0",
+    "timeseries_sha256": "1efa5a7aff5fbdc97e69869b3c98797c3066770f7567c7f223559fb9eaf68c9f",
+    "goodput_total_mbps": 440.3134389333,
+    "wire_utilization": 0.9134697038,
+    "normalized_mean_queue": 0.2166358743,
+    "status": "PASS",
+    "wall_seconds": 1504.174747,
+    "ended_utc": "2026-11-20T04:32:06.329445+00:00"
+  },
+  {
+    "id": "t2-yeah-beta0p5",
+    "started_utc": "2026-11-20T04:30:18.398910+00:00",
+    "command": [
+      "./ns3",
+      "run",
+      "scratch/yeah-experiment --flows=2 --capacity=500 --rtt1=80 --rtt2=80 --duration=600 --loss=0 --flow2Start=0 --flow2Stop=600 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=yeah --tcp2=yeah --bufferRatio=0.5 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h2/t2-yeah-beta0p5",
+      "--no-build"
+    ],
+    "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+    "returncode": 0,
+    "samples": 60001,
+    "buffer_packets": 1666,
+    "summary_sha256": "186cea6c9d93f40448729d9c6aa5976cdab21c454e925634aa971923eb4347dd",
+    "timeseries_sha256": "8e8c209a2e0a62db56c4399f8d71aed7a8c09664a4dd64bbfa7b0b9a512e4c92",
+    "goodput_total_mbps": 469.71978976,
+    "wire_utilization": 0.974474335,
+    "normalized_mean_queue": 0.3520391857,
+    "status": "PASS",
+    "wall_seconds": 2887.527258,
+    "ended_utc": "2026-11-20T05:19:05.433226+00:00"
+  },
+  {
+    "id": "t2-yeah-beta1p0",
+    "started_utc": "2026-11-20T04:50:02.347505+00:00",
+    "command": [
+      "./ns3",
+      "run",
+      "scratch/yeah-experiment --flows=2 --capacity=500 --rtt1=80 --rtt2=80 --duration=600 --loss=0 --flow2Start=0 --flow2Stop=600 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=yeah --tcp2=yeah --bufferRatio=1.0 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h2/t2-yeah-beta1p0",
+      "--no-build"
+    ],
+    "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+    "returncode": 0,
+    "samples": 60001,
+    "buffer_packets": 3333,
+    "summary_sha256": "d0f3753bdfab180491593845c8f71f40373fef1395665115e52f1612686360e1",
+    "timeseries_sha256": "a734f1b0815250421354f542d54efdd212be5263041fd7ce20a4ccddcc9f0428",
+    "goodput_total_mbps": 460.99796448,
+    "wire_utilization": 0.9563814833,
+    "normalized_mean_queue": 0.3718175268,
+    "status": "PASS",
+    "wall_seconds": 2656.958985,
+    "ended_utc": "2026-11-20T05:34:42.685128+00:00"
+  }
+]

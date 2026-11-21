@@ -1,0 +1,24 @@
+{
+  "id": "t4-reno-p1e-4",
+  "started_utc": "2026-11-20T08:49:38.352815+00:00",
+  "command": [
+    "./ns3",
+    "run",
+    "scratch/yeah-experiment --flows=2 --capacity=500 --rtt1=200 --rtt2=200 --bufferRatio=1 --duration=600 --flow2Start=0 --flow2Stop=600 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=reno --tcp2=reno --loss=0.0001 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h4/t4-reno-p1e-4",
+    "--no-build"
+  ],
+  "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+  "returncode": 0,
+  "samples": 60001,
+  "buffer_packets": 8333,
+  "random_drops": 65,
+  "loss_configured": 0.0001,
+  "summary_sha256": "cc54bab4f5eb448d7cade53f4a43dd48e0e406223eab9cbcdbfa97e13999526a",
+  "timeseries_sha256": "74ec6394154e3ce320f2cdc6acb1b230be95bb3d7db1b6cef496db84f9a5492f",
+  "goodput_total_mbps": 11.9253997867,
+  "wire_utilization": 0.0247428725,
+  "normalized_mean_queue": 0.000148776,
+  "status": "PASS",
+  "wall_seconds": 30.164443,
+  "ended_utc": "2026-11-20T08:50:08.517346+00:00"
+}

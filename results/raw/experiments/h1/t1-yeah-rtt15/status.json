@@ -1,0 +1,18 @@
+{
+  "id": "t1-yeah-rtt15",
+  "group": "T1",
+  "started_utc": "2026-11-19T15:04:25.353157+00:00",
+  "command": [
+    "./ns3",
+    "run",
+    "scratch/yeah-experiment --flows=2 --capacity=500 --bufferRatio=1 --duration=600 --loss=0 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=yeah --tcp2=yeah --rtt1=15 --rtt2=15 --flow2Start=0 --flow2Stop=600 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h1/t1-yeah-rtt15",
+    "--no-build"
+  ],
+  "returncode": 0,
+  "wall_seconds": 890.176699,
+  "samples": 60001,
+  "summary_sha256": "b3a48820d9999814bba7a5a069144ebad96e2e8fabd309a2f9bf88ab589cbaab",
+  "timeseries_sha256": "be02e33e62e68ea2bc7752bf509a81eaf324314d862be68dec63ba88b8ef7c5f",
+  "status": "PASS",
+  "ended_utc": "2026-11-19T15:18:01.582114+00:00"
+}

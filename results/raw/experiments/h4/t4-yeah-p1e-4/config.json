@@ -1,0 +1,22 @@
+{
+  "id": "t4-yeah-p1e-4",
+  "group": "T4",
+  "params": {
+    "flows": 2,
+    "capacity": 500,
+    "rtt1": 200,
+    "rtt2": 200,
+    "bufferRatio": 1,
+    "duration": 600,
+    "flow2Start": 0,
+    "flow2Stop": 600,
+    "seed": 1,
+    "run": 1,
+    "mss": 1448,
+    "initialCwnd": 10,
+    "initialSsthreshSegments": 0,
+    "tcp1": "yeah",
+    "tcp2": "yeah",
+    "loss": 0.0001
+  }
+}

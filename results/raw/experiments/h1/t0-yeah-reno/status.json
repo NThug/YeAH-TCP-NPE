@@ -1,0 +1,18 @@
+{
+  "id": "t0-yeah-reno",
+  "group": "T0",
+  "started_utc": "2026-11-19T15:04:25.352635+00:00",
+  "command": [
+    "./ns3",
+    "run",
+    "scratch/yeah-experiment --flows=2 --capacity=500 --bufferRatio=1 --duration=600 --loss=0 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=yeah --tcp2=reno --rtt1=80 --rtt2=80 --flow2Start=60 --flow2Stop=400 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h1/t0-yeah-reno",
+    "--no-build"
+  ],
+  "returncode": 0,
+  "wall_seconds": 3926.485378,
+  "samples": 60001,
+  "summary_sha256": "a1afb091d01b5e0a2dde2fc4365e1a1117dfece939b72fe0e586e1eaefb8ed37",
+  "timeseries_sha256": "2589b7a9c41640f4372032a76a8d874ae66ae082e99e8d8b84e06ff98a27d3ee",
+  "status": "PASS",
+  "ended_utc": "2026-11-19T16:04:23.671973+00:00"
+}

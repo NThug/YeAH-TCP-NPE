@@ -1,0 +1,99 @@
+{
+  "result": "PASS",
+  "cases": [
+    {
+      "case_id": "t4-yeah-p1e-8",
+      "status": "AUDIT_PASS",
+      "samples": 60001,
+      "summary_sha256": "0545a17ece1f10faa4cc681f0dc24dd7abed708f309de2c11487a34fd33ab09c",
+      "timeseries_sha256": "14bbce777a6b0c02dbd410a167d19de53b764ef65a2544a2621defd26a51aa4a",
+      "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+      "algorithm": "yeah",
+      "loss_configured": 1e-08
+    },
+    {
+      "case_id": "t4-reno-p1e-8",
+      "status": "AUDIT_PASS",
+      "samples": 60001,
+      "summary_sha256": "587a6bbd390e77397e76ac4dd3e6bc7fd08957d660936fc3f9d9dcbc515bcbb4",
+      "timeseries_sha256": "5a245222f711c48d1ed99f47635fc6e21df96c4569b80ab50e79fc5392fc1808",
+      "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+      "algorithm": "reno",
+      "loss_configured": 1e-08
+    },
+    {
+      "case_id": "t4-yeah-p1e-6",
+      "status": "AUDIT_PASS",
+      "samples": 60001,
+      "summary_sha256": "8363854dea024ee3455b319c815db00df490b110f69cbf3bd56e2a98bd0ab2bb",
+      "timeseries_sha256": "09523dde2f506922abdba4853fc7dd78eaac5189506afc994d2cddb745b8a07e",
+      "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+      "algorithm": "yeah",
+      "loss_configured": 1e-06
+    },
+    {
+      "case_id": "t4-reno-p1e-6",
+      "status": "AUDIT_PASS",
+      "samples": 60001,
+      "summary_sha256": "efd99eaaeab161af79c0f962b47b8cd13ab6274ec899d716ac1b43cfedeac3b0",
+      "timeseries_sha256": "6038a0c59c5840760004be0a91f7b77ea921384a0190fc99da48ddff5c58983c",
+      "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+      "algorithm": "reno",
+      "loss_configured": 1e-06
+    },
+    {
+      "case_id": "t4-yeah-p1e-5",
+      "status": "AUDIT_PASS",
+      "samples": 60001,
+      "summary_sha256": "33b282f342a56522fe16494b42e4cfda823d1327499465fe86bf4bb24091f151",
+      "timeseries_sha256": "6a0c28835ff0fd1a985ae3583b1cd53f6347e1682088554a8c265e6a2729e8d9",
+      "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+      "algorithm": "yeah",
+      "loss_configured": 1e-05
+    },
+    {
+      "case_id": "t4-reno-p1e-5",
+      "status": "AUDIT_PASS",
+      "samples": 60001,
+      "summary_sha256": "ade5f091376ec37cf91325e817e187471cbf81a582ebbc16ccea96ab3579e5d3",
+      "timeseries_sha256": "36478730f36b46ed1d6161026f169f7e96c68ce42a8b22ef09e28a5e5a6d2359",
+      "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+      "algorithm": "reno",
+      "loss_configured": 1e-05
+    },
+    {
+      "case_id": "t4-yeah-p1e-4",
+      "status": "AUDIT_PASS",
+      "samples": 60001,
+      "summary_sha256": "70e2d11ff4ace1583ae28ef5744a694c349c6c3bdb8277f8b9d92fb990040aaa",
+      "timeseries_sha256": "62036cd7748bd9624dd1c6efa9c94dbd350cf5d6376da0f909961f89c38033aa",
+      "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+      "algorithm": "yeah",
+      "loss_configured": 0.0001
+    },
+    {
+      "case_id": "t4-reno-p1e-4",
+      "status": "AUDIT_PASS",
+      "samples": 60001,
+      "summary_sha256": "cc54bab4f5eb448d7cade53f4a43dd48e0e406223eab9cbcdbfa97e13999526a",
+      "timeseries_sha256": "74ec6394154e3ce320f2cdc6acb1b230be95bb3d7db1b6cef496db84f9a5492f",
+      "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+      "algorithm": "reno",
+      "loss_configured": 0.0001
+    }
+  ],
+  "inputs": {
+    "ns3_version": "3.44",
+    "commit": "43dce6710b8df69685e3479c1d33a571dda714ea",
+    "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+    "runner_sha256": "c77cb78d9ab921a4994e778586473a1bf587e4b4e9bba75d3faf1313f6138c74",
+    "profile": "optimized"
+  },
+  "cautions": [
+    "Single run per TCP/p; no confidence interval",
+    "p is configured, not measured rate",
+    "Random drops on receiving bottleneck device and queue overflow drops are distinct",
+    "Configured p=1e-8 produced zero observed random drops in both cases",
+    "Figure 5 physical Linux testbed is not identical to NS-3 implementation"
+  ]
+}

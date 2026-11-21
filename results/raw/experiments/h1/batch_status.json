@@ -1,0 +1,146 @@
+[
+  {
+    "id": "t0-yeah-reno",
+    "group": "T0",
+    "started_utc": "2026-11-19T15:04:25.352635+00:00",
+    "command": [
+      "./ns3",
+      "run",
+      "scratch/yeah-experiment --flows=2 --capacity=500 --bufferRatio=1 --duration=600 --loss=0 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=yeah --tcp2=reno --rtt1=80 --rtt2=80 --flow2Start=60 --flow2Stop=400 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h1/t0-yeah-reno",
+      "--no-build"
+    ],
+    "returncode": 0,
+    "wall_seconds": 3926.485378,
+    "samples": 60001,
+    "summary_sha256": "a1afb091d01b5e0a2dde2fc4365e1a1117dfece939b72fe0e586e1eaefb8ed37",
+    "timeseries_sha256": "2589b7a9c41640f4372032a76a8d874ae66ae082e99e8d8b84e06ff98a27d3ee",
+    "status": "PASS",
+    "ended_utc": "2026-11-19T16:04:23.671973+00:00"
+  },
+  {
+    "id": "t0-yeah-yeah",
+    "group": "T0",
+    "started_utc": "2026-11-19T15:04:25.352221+00:00",
+    "command": [
+      "./ns3",
+      "run",
+      "scratch/yeah-experiment --flows=2 --capacity=500 --bufferRatio=1 --duration=600 --loss=0 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=yeah --tcp2=yeah --rtt1=80 --rtt2=80 --flow2Start=60 --flow2Stop=400 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h1/t0-yeah-yeah",
+      "--no-build"
+    ],
+    "returncode": 0,
+    "wall_seconds": 3591.693307,
+    "samples": 60001,
+    "summary_sha256": "088850f100c003ae65a7a73ad75be22e00d3a6f083164f6497ffa28ae9e0bf63",
+    "timeseries_sha256": "986c566d60efd092d38b7495ce2fe02bd89e8af1d19e60418ee141f8039f80c3",
+    "status": "PASS",
+    "ended_utc": "2026-11-19T15:59:18.573962+00:00"
+  },
+  {
+    "id": "t1-reno-rtt15",
+    "group": "T1",
+    "started_utc": "2026-11-19T15:18:01.583508+00:00",
+    "command": [
+      "./ns3",
+      "run",
+      "scratch/yeah-experiment --flows=2 --capacity=500 --bufferRatio=1 --duration=600 --loss=0 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=reno --tcp2=reno --rtt1=15 --rtt2=15 --flow2Start=0 --flow2Stop=600 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h1/t1-reno-rtt15",
+      "--no-build"
+    ],
+    "returncode": 0,
+    "wall_seconds": 928.284208,
+    "samples": 60001,
+    "summary_sha256": "3b8dbbdf6eef7258172b9930bf97291e1eff55635d3018bc307923e443a2c1c7",
+    "timeseries_sha256": "015613090ec6941075e27583391fa9ae99874a5e4f5be0496b842c13a7dc55dc",
+    "status": "PASS",
+    "ended_utc": "2026-11-19T15:32:14.924183+00:00"
+  },
+  {
+    "id": "t1-reno-rtt240",
+    "group": "T1",
+    "started_utc": "2026-11-19T16:11:48.567063+00:00",
+    "command": [
+      "./ns3",
+      "run",
+      "scratch/yeah-experiment --flows=2 --capacity=500 --bufferRatio=1 --duration=600 --loss=0 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=reno --tcp2=reno --rtt1=240 --rtt2=240 --flow2Start=0 --flow2Stop=600 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h1/t1-reno-rtt240",
+      "--no-build"
+    ],
+    "returncode": 0,
+    "wall_seconds": 11901.307597,
+    "samples": 60001,
+    "summary_sha256": "175d8c8c85cbd2d66471221aaea5543d63f9008d9cdb97c104973d208f2875f9",
+    "timeseries_sha256": "661d4294366a8ef32ccc4b8ac5ef0a77fa180a5c930c541509095fdb10afe7ea",
+    "status": "PASS",
+    "ended_utc": "2026-11-19T19:22:23.299402+00:00"
+  },
+  {
+    "id": "t1-reno-rtt60",
+    "group": "T1",
+    "started_utc": "2026-11-19T15:59:18.575029+00:00",
+    "command": [
+      "./ns3",
+      "run",
+      "scratch/yeah-experiment --flows=2 --capacity=500 --bufferRatio=1 --duration=600 --loss=0 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=reno --tcp2=reno --rtt1=60 --rtt2=60 --flow2Start=0 --flow2Stop=600 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h1/t1-reno-rtt60",
+      "--no-build"
+    ],
+    "returncode": 0,
+    "wall_seconds": 3252.011969,
+    "samples": 60001,
+    "summary_sha256": "74c9c776c9ef7806e4be24515d12e678ae7e95eda4408dd10192b8f6e8b59e31",
+    "timeseries_sha256": "bd5a63208d7e4b504b6d083105a6318fc93eaef1c19bf937da04cf321c551d59",
+    "status": "PASS",
+    "ended_utc": "2026-11-19T16:48:55.961934+00:00"
+  },
+  {
+    "id": "t1-yeah-rtt15",
+    "group": "T1",
+    "started_utc": "2026-11-19T15:04:25.353157+00:00",
+    "command": [
+      "./ns3",
+      "run",
+      "scratch/yeah-experiment --flows=2 --capacity=500 --bufferRatio=1 --duration=600 --loss=0 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=yeah --tcp2=yeah --rtt1=15 --rtt2=15 --flow2Start=0 --flow2Stop=600 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h1/t1-yeah-rtt15",
+      "--no-build"
+    ],
+    "returncode": 0,
+    "wall_seconds": 890.176699,
+    "samples": 60001,
+    "summary_sha256": "b3a48820d9999814bba7a5a069144ebad96e2e8fabd309a2f9bf88ab589cbaab",
+    "timeseries_sha256": "be02e33e62e68ea2bc7752bf509a81eaf324314d862be68dec63ba88b8ef7c5f",
+    "status": "PASS",
+    "ended_utc": "2026-11-19T15:18:01.582114+00:00"
+  },
+  {
+    "id": "t1-yeah-rtt240",
+    "group": "T1",
+    "started_utc": "2026-11-19T16:04:23.673050+00:00",
+    "command": [
+      "./ns3",
+      "run",
+      "scratch/yeah-experiment --flows=2 --capacity=500 --bufferRatio=1 --duration=600 --loss=0 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=yeah --tcp2=yeah --rtt1=240 --rtt2=240 --flow2Start=0 --flow2Stop=600 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h1/t1-yeah-rtt240",
+      "--no-build"
+    ],
+    "returncode": 0,
+    "wall_seconds": 8730.100869,
+    "samples": 60001,
+    "summary_sha256": "44816feda3742eab900a66fb41f1335f1f5bdcfc5abbe3061829abec6eb449e5",
+    "timeseries_sha256": "b0857fc8ee9e63688fa153effa0a876770af3449f49eedd3cc35e73e116edb4e",
+    "status": "PASS",
+    "ended_utc": "2026-11-19T18:21:29.112780+00:00"
+  },
+  {
+    "id": "t1-yeah-rtt60",
+    "group": "T1",
+    "started_utc": "2026-11-19T15:32:14.925189+00:00",
+    "command": [
+      "./ns3",
+      "run",
+      "scratch/yeah-experiment --flows=2 --capacity=500 --bufferRatio=1 --duration=600 --loss=0 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=yeah --tcp2=yeah --rtt1=60 --rtt2=60 --flow2Start=0 --flow2Stop=600 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h1/t1-yeah-rtt60",
+      "--no-build"
+    ],
+    "returncode": 0,
+    "wall_seconds": 2590.521037,
+    "samples": 60001,
+    "summary_sha256": "c12cd3a45813bb4203fb5502bdf24c014ade646e0e8186548d90592b7d61e2a9",
+    "timeseries_sha256": "9ea310f95ae0d224c3a2b2d01a2418b39d703a206fb773615ad39fa4c850dc68",
+    "status": "PASS",
+    "ended_utc": "2026-11-19T16:11:48.565279+00:00"
+  }
+]

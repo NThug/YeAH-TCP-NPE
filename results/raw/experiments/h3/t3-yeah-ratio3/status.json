@@ -1,0 +1,22 @@
+{
+  "id": "t3-yeah-ratio3",
+  "started_utc": "2026-11-20T06:51:35.274142+00:00",
+  "command": [
+    "./ns3",
+    "run",
+    "scratch/yeah-experiment --flows=2 --capacity=500 --rtt1=25 --bufferRatio=1 --duration=600 --loss=0 --flow2Start=0 --flow2Stop=600 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=yeah --tcp2=yeah --rtt2=75 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h3/t3-yeah-ratio3",
+    "--no-build"
+  ],
+  "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+  "returncode": 0,
+  "samples": 60001,
+  "buffer_packets": 1041,
+  "summary_sha256": "db29cf9ccc395c55efc3d2a18d160e627cefbe50896cf584f18b314dfeb20f85",
+  "timeseries_sha256": "4801318b05872cc9b211528a560a0ff15b0213cf23aad8d18e4a7642054365ee",
+  "goodput_total_mbps": 477.2297162667,
+  "wire_utilization": 0.9900556424,
+  "normalized_mean_queue": 0.4889329011,
+  "status": "PASS",
+  "wall_seconds": 1645.877106,
+  "ended_utc": "2026-11-20T07:19:30.095069+00:00"
+}

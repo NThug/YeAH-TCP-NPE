@@ -1,0 +1,184 @@
+{
+  "batch": "H3",
+  "purpose": "Figure 7 RTT fairness ratios",
+  "duration": 600,
+  "workers": 3,
+  "cases": [
+    {
+      "id": "t3-yeah-ratio1",
+      "group": "T3",
+      "params": {
+        "flows": 2,
+        "capacity": 500,
+        "rtt1": 25,
+        "bufferRatio": 1,
+        "duration": 600,
+        "loss": 0,
+        "flow2Start": 0,
+        "flow2Stop": 600,
+        "seed": 1,
+        "run": 1,
+        "mss": 1448,
+        "initialCwnd": 10,
+        "initialSsthreshSegments": 0,
+        "tcp1": "yeah",
+        "tcp2": "yeah",
+        "rtt2": 25
+      }
+    },
+    {
+      "id": "t3-reno-ratio1",
+      "group": "T3",
+      "params": {
+        "flows": 2,
+        "capacity": 500,
+        "rtt1": 25,
+        "bufferRatio": 1,
+        "duration": 600,
+        "loss": 0,
+        "flow2Start": 0,
+        "flow2Stop": 600,
+        "seed": 1,
+        "run": 1,
+        "mss": 1448,
+        "initialCwnd": 10,
+        "initialSsthreshSegments": 0,
+        "tcp1": "reno",
+        "tcp2": "reno",
+        "rtt2": 25
+      }
+    },
+    {
+      "id": "t3-yeah-ratio2",
+      "group": "T3",
+      "params": {
+        "flows": 2,
+        "capacity": 500,
+        "rtt1": 25,
+        "bufferRatio": 1,
+        "duration": 600,
+        "loss": 0,
+        "flow2Start": 0,
+        "flow2Stop": 600,
+        "seed": 1,
+        "run": 1,
+        "mss": 1448,
+        "initialCwnd": 10,
+        "initialSsthreshSegments": 0,
+        "tcp1": "yeah",
+        "tcp2": "yeah",
+        "rtt2": 50
+      }
+    },
+    {
+      "id": "t3-reno-ratio2",
+      "group": "T3",
+      "params": {
+        "flows": 2,
+        "capacity": 500,
+        "rtt1": 25,
+        "bufferRatio": 1,
+        "duration": 600,
+        "loss": 0,
+        "flow2Start": 0,
+        "flow2Stop": 600,
+        "seed": 1,
+        "run": 1,
+        "mss": 1448,
+        "initialCwnd": 10,
+        "initialSsthreshSegments": 0,
+        "tcp1": "reno",
+        "tcp2": "reno",
+        "rtt2": 50
+      }
+    },
+    {
+      "id": "t3-yeah-ratio3",
+      "group": "T3",
+      "params": {
+        "flows": 2,
+        "capacity": 500,
+        "rtt1": 25,
+        "bufferRatio": 1,
+        "duration": 600,
+        "loss": 0,
+        "flow2Start": 0,
+        "flow2Stop": 600,
+        "seed": 1,
+        "run": 1,
+        "mss": 1448,
+        "initialCwnd": 10,
+        "initialSsthreshSegments": 0,
+        "tcp1": "yeah",
+        "tcp2": "yeah",
+        "rtt2": 75
+      }
+    },
+    {
+      "id": "t3-reno-ratio3",
+      "group": "T3",
+      "params": {
+        "flows": 2,
+        "capacity": 500,
+        "rtt1": 25,
+        "bufferRatio": 1,
+        "duration": 600,
+        "loss": 0,
+        "flow2Start": 0,
+        "flow2Stop": 600,
+        "seed": 1,
+        "run": 1,
+        "mss": 1448,
+        "initialCwnd": 10,
+        "initialSsthreshSegments": 0,
+        "tcp1": "reno",
+        "tcp2": "reno",
+        "rtt2": 75
+      }
+    },
+    {
+      "id": "t3-yeah-ratio4",
+      "group": "T3",
+      "params": {
+        "flows": 2,
+        "capacity": 500,
+        "rtt1": 25,
+        "bufferRatio": 1,
+        "duration": 600,
+        "loss": 0,
+        "flow2Start": 0,
+        "flow2Stop": 600,
+        "seed": 1,
+        "run": 1,
+        "mss": 1448,
+        "initialCwnd": 10,
+        "initialSsthreshSegments": 0,
+        "tcp1": "yeah",
+        "tcp2": "yeah",
+        "rtt2": 100
+      }
+    },
+    {
+      "id": "t3-reno-ratio4",
+      "group": "T3",
+      "params": {
+        "flows": 2,
+        "capacity": 500,
+        "rtt1": 25,
+        "bufferRatio": 1,
+        "duration": 600,
+        "loss": 0,
+        "flow2Start": 0,
+        "flow2Stop": 600,
+        "seed": 1,
+        "run": 1,
+        "mss": 1448,
+        "initialCwnd": 10,
+        "initialSsthreshSegments": 0,
+        "tcp1": "reno",
+        "tcp2": "reno",
+        "rtt2": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "batch": "H3",
+  "status": "PASS",
+  "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+  "runner_sha256": "91948c8cba0eae07e2fa37857dee831f0535fc6b6e7e00c7066bef038cc92526",
+  "environment": {
+    "version": "3.44",
+    "commit": "43dce6710b8df69685e3479c1d33a571dda714ea",
+    "profile": "optimized"
+  },
+  "cases": [
+    {
+      "id": "t3-yeah-ratio1",
+      "status": "PASS",
+      "samples": 60001,
+      "summary_sha256": "5053a3ffab7fe5050e7514f6d249cc69746661c0fa5da5cdf522f88a53d1c4a5",
+      "timeseries_sha256": "ae17e23c5db6bbafc22c12b48be50d2d6fb33c2833b4d76e284370d76506fdbe",
+      "jain_whole_600s": 0.9999297214
+    },
+    {
+      "id": "t3-reno-ratio1",
+      "status": "PASS",
+      "samples": 60001,
+      "summary_sha256": "d8a0647093030d50bc5e9ed4eacfe122d95be7cf695fa70e60210ce6f12d1f38",
+      "timeseries_sha256": "cf6c9acde3f6a848b1b523a46f6f832cffb8d31cb3549d26fff554bc62c043c6",
+      "jain_whole_600s": 0.9999735746
+    },
+    {
+      "id": "t3-yeah-ratio2",
+      "status": "PASS",
+      "samples": 60001,
+      "summary_sha256": "49b4ce934ffc126cb8254c81488f7d1852cbf46f9f40d7f5e0af810dfe283684",
+      "timeseries_sha256": "139ab53d8d2a0a647a707fcff8525880133547601621fa335be63ebbe1a06f3b",
+      "jain_whole_600s": 0.899690131
+    },
+    {
+      "id": "t3-reno-ratio2",
+      "status": "PASS",
+      "samples": 60001,
+      "summary_sha256": "b38d4fdadc3b0d99447a334cd9c1307459a22ff557e0658b11552c8b9b8646cc",
+      "timeseries_sha256": "ef7a359fdc84a5b9a416c240f3cc6bca7b3cdf2c3472b0d4879c0420d68172fa",
+      "jain_whole_600s": 0.8342734743
+    },
+    {
+      "id": "t3-yeah-ratio3",
+      "status": "PASS",
+      "samples": 60001,
+      "summary_sha256": "db29cf9ccc395c55efc3d2a18d160e627cefbe50896cf584f18b314dfeb20f85",
+      "timeseries_sha256": "4801318b05872cc9b211528a560a0ff15b0213cf23aad8d18e4a7642054365ee",
+      "jain_whole_600s": 0.6292908746
+    },
+    {
+      "id": "t3-reno-ratio3",
+      "status": "PASS",
+      "samples": 60001,
+      "summary_sha256": "40dbe79b054f5fe802206bbfeecbec6e2627db7550596d86719555958fe16e45",
+      "timeseries_sha256": "f58b527d667ab8e3d12f90d88fef26cd3de878514f6508bc610b4b184223f253",
+      "jain_whole_600s": 0.6067728114
+    },
+    {
+      "id": "t3-yeah-ratio4",
+      "status": "PASS",
+      "samples": 60001,
+      "summary_sha256": "ecc7b8fc1062fb5f67e3a4f4ab3c608abdfcdd28222cfdcac0af34637535317e",
+      "timeseries_sha256": "57ec93f079731bb4f1c7722ad92670589dabd3f1ee0670c3f8de35e75f33ed53",
+      "jain_whole_600s": 0.7819387301
+    },
+    {
+      "id": "t3-reno-ratio4",
+      "status": "PASS",
+      "samples": 60001,
+      "summary_sha256": "e7d11d0d49639309bd8aff47ac30d2d4c2df2cddab527b52708d7354489f4ded",
+      "timeseries_sha256": "6b404cb9f0da3fd90c904dd1f68d67d99517b0f72a779ea7cb9e03efaa84616d",
+      "jain_whole_600s": 0.7515491835
+    }
+  ]
+}

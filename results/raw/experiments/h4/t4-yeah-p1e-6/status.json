@@ -1,0 +1,24 @@
+{
+  "id": "t4-yeah-p1e-6",
+  "started_utc": "2026-11-20T08:16:29.042660+00:00",
+  "command": [
+    "./ns3",
+    "run",
+    "scratch/yeah-experiment --flows=2 --capacity=500 --rtt1=200 --rtt2=200 --bufferRatio=1 --duration=600 --flow2Start=0 --flow2Stop=600 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=yeah --tcp2=yeah --loss=1e-06 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h4/t4-yeah-p1e-6",
+    "--no-build"
+  ],
+  "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+  "returncode": 0,
+  "samples": 60001,
+  "buffer_packets": 8333,
+  "random_drops": 7,
+  "loss_configured": 1e-06,
+  "summary_sha256": "8363854dea024ee3455b319c815db00df490b110f69cbf3bd56e2a98bd0ab2bb",
+  "timeseries_sha256": "09523dde2f506922abdba4853fc7dd78eaac5189506afc994d2cddb745b8a07e",
+  "goodput_total_mbps": 120.2695092267,
+  "wire_utilization": 0.2495096826,
+  "normalized_mean_queue": 0.0011936877,
+  "status": "PASS",
+  "wall_seconds": 473.180857,
+  "ended_utc": "2026-11-20T08:24:30.415515+00:00"
+}

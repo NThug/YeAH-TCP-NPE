@@ -1,0 +1,140 @@
+{
+  "batch": "H2",
+  "status": "VALIDATED_FROM_SUBMITTED_ARTIFACTS",
+  "ns3_version": "3.44",
+  "ns3_commit": "43dce6710b8df69685e3479c1d33a571dda714ea",
+  "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+  "runner_sha256": "f7f1f65a3bba2ddf56087036e84c401643cf42980d0eaf81dfb3423abd407625",
+  "executable_sha256_recorded_not_locally_rechecked": "91c1b8ddc4460d79f1d95855a7692dc67b6c29ae0e50f4bdae319ba6a3775590",
+  "limitations": [
+    "Only one seed/run per configuration (1/1); no confidence intervals.",
+    "Validation of submitted original outputs, not an independent NS-3 simulation rerun.",
+    "No SURGE cross traffic or Limited Slow Start; NS-3 implementation is not a full Linux testbed reproduction.",
+    "The overflow rate uses bottleneck FIFO enqueue attempts, not end-to-end loss probability.",
+    "All performance metrics use the full 600s interval including startup."
+  ],
+  "cases": [
+    {
+      "id": "t2-yeah-beta0p125",
+      "source_summary_sha256": "e4685de441c3a58f78d46dbcb4a8e0664ec819059ead09a34fdb6fead5691ac4",
+      "source_timeseries_sha256": "397db77f613eb5f4a8ae78108793ad123127ce84f42a0ec3da56fc03ed6912b7"
+    },
+    {
+      "id": "t2-reno-beta0p125",
+      "source_summary_sha256": "d33c0b257c9c6f11f82cfb69173e7d9456e65bfc9796935e9706ba2de702a07d",
+      "source_timeseries_sha256": "6cec2a6e748d313d7465fd752956279671f58661d12b455b96fbab1426791748"
+    },
+    {
+      "id": "t2-yeah-beta0p25",
+      "source_summary_sha256": "75dfef541c829b6305c83db8fe8f5c8473a8d87c54545604b60278296fb4b0b0",
+      "source_timeseries_sha256": "1efa5a7aff5fbdc97e69869b3c98797c3066770f7567c7f223559fb9eaf68c9f"
+    },
+    {
+      "id": "t2-reno-beta0p25",
+      "source_summary_sha256": "8153ff28c9a6167fa15b83589639d23b21c973a585bad4dea5d0aeebeea0b33e",
+      "source_timeseries_sha256": "9c00237ac62c4b7342c027028287e1127f4da5704a1fc8e0d1a0b9aa8fad1ed0"
+    },
+    {
+      "id": "t2-yeah-beta0p5",
+      "source_summary_sha256": "186cea6c9d93f40448729d9c6aa5976cdab21c454e925634aa971923eb4347dd",
+      "source_timeseries_sha256": "8e8c209a2e0a62db56c4399f8d71aed7a8c09664a4dd64bbfa7b0b9a512e4c92"
+    },
+    {
+      "id": "t2-reno-beta0p5",
+      "source_summary_sha256": "1c87a61018b108cecc4cfe986688c77c1022207706f2834a342447602d646cc7",
+      "source_timeseries_sha256": "b5d6bc7f84f2f3cabdba346b528d5ffc4d4407e8652db4fefb67595a7a277713"
+    },
+    {
+      "id": "t2-yeah-beta1p0",
+      "source_summary_sha256": "d0f3753bdfab180491593845c8f71f40373fef1395665115e52f1612686360e1",
+      "source_timeseries_sha256": "a734f1b0815250421354f542d54efdd212be5263041fd7ce20a4ccddcc9f0428"
+    },
+    {
+      "id": "t2-reno-beta1p0",
+      "source_summary_sha256": "8a2c5d57894238d8294d861504bf8b4b3c20f011d048e4ba0ca10d7a97381ef5",
+      "source_timeseries_sha256": "82b00ed5f8ced0a9e18ee5d42d18c4e2fb3865e8e091424b1b4968f729114f56"
+    }
+  ],
+  "figures": [
+    {
+      "figure": "t2_buffer_goodput",
+      "field": "total_goodput_mbps",
+      "case_ids": [
+        "t2-yeah-beta0p125",
+        "t2-yeah-beta0p25",
+        "t2-yeah-beta0p5",
+        "t2-yeah-beta1p0",
+        "t2-reno-beta0p125",
+        "t2-reno-beta0p25",
+        "t2-reno-beta0p5",
+        "t2-reno-beta1p0"
+      ],
+      "source": "Verified H2 timeseries.csv and summary.csv (one seed/run per case)",
+      "meaning": "Full 600s measurement window"
+    },
+    {
+      "figure": "t2_buffer_wire_utilization",
+      "field": "wire_utilization_pct",
+      "case_ids": [
+        "t2-yeah-beta0p125",
+        "t2-yeah-beta0p25",
+        "t2-yeah-beta0p5",
+        "t2-yeah-beta1p0",
+        "t2-reno-beta0p125",
+        "t2-reno-beta0p25",
+        "t2-reno-beta0p5",
+        "t2-reno-beta1p0"
+      ],
+      "source": "Verified H2 timeseries.csv and summary.csv (one seed/run per case)",
+      "meaning": "Full 600s measurement window"
+    },
+    {
+      "figure": "t2_buffer_queue_normalized",
+      "field": "queue_over_buffer_pct",
+      "case_ids": [
+        "t2-yeah-beta0p125",
+        "t2-yeah-beta0p25",
+        "t2-yeah-beta0p5",
+        "t2-yeah-beta1p0",
+        "t2-reno-beta0p125",
+        "t2-reno-beta0p25",
+        "t2-reno-beta0p5",
+        "t2-reno-beta1p0"
+      ],
+      "source": "Verified H2 timeseries.csv and summary.csv (one seed/run per case)",
+      "meaning": "Full 600s measurement window"
+    },
+    {
+      "figure": "t2_buffer_overflow",
+      "field": "overflow_per_million_attempts",
+      "case_ids": [
+        "t2-yeah-beta0p125",
+        "t2-yeah-beta0p25",
+        "t2-yeah-beta0p5",
+        "t2-yeah-beta1p0",
+        "t2-reno-beta0p125",
+        "t2-reno-beta0p25",
+        "t2-reno-beta0p5",
+        "t2-reno-beta1p0"
+      ],
+      "source": "Verified H2 timeseries.csv and summary.csv (one seed/run per case)",
+      "meaning": "Full 600s measurement window"
+    },
+    {
+      "figure": "t2_buffer_fairness",
+      "field": "jain_whole_600s",
+      "case_ids": [
+        "t2-yeah-beta0p125",
+        "t2-yeah-beta0p25",
+        "t2-yeah-beta0p5",
+        "t2-yeah-beta1p0",
+        "t2-reno-beta0p125",
+        "t2-reno-beta0p25",
+        "t2-reno-beta0p5",
+        "t2-reno-beta1p0"
+      ],
+      "source": "Verified H2 timeseries.csv and summary.csv (one seed/run per case)",
+      "meaning": "Full 600s measurement window"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "t2-reno-beta0p125",
+  "group": "T2",
+  "params": {
+    "flows": 2,
+    "capacity": 500,
+    "rtt1": 80,
+    "rtt2": 80,
+    "duration": 600,
+    "loss": 0,
+    "flow2Start": 0,
+    "flow2Stop": 600,
+    "seed": 1,
+    "run": 1,
+    "mss": 1448,
+    "initialCwnd": 10,
+    "initialSsthreshSegments": 0,
+    "tcp1": "reno",
+    "tcp2": "reno",
+    "bufferRatio": 0.125
+  }
+}

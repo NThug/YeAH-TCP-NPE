@@ -1,0 +1,7 @@
+rtt_ms,tcp,paper_overflow_probability_exact,paper_observation_note,paper_pdf_page,paper_print_page
+15,reno,0.0000057686,Published probability,4,40
+15,yeah,,No buffer overflow packets observed,4,40
+60,reno,0.0000050669,Published probability,4,40
+60,yeah,,No buffer overflow packets observed,4,40
+240,reno,0.0000009400,Published probability,4,40
+240,yeah,,No buffer overflow packets observed,4,40

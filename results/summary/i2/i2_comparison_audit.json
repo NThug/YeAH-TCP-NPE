@@ -1,0 +1,26 @@
+{
+  "paper_table_I_pdf_page": 4,
+  "paper_table_I_print_page": 40,
+  "fig3_yeah_queue_less_than_reno_at_all_measured_rtts": true,
+  "fig6_yeah_queue_normalized_first_last_pct": [
+    10.1821274,
+    37.18175268
+  ],
+  "fig6_yeah_queue_normalized_increases_at_measured_points": true,
+  "fig7_jain_yeah_higher_than_reno_for_ratios_2_3_4": true,
+  "fig5_wire_yeah_higher_than_reno_by_p_order": [
+    false,
+    false,
+    false,
+    true
+  ],
+  "comparison_type": "Table I: exact numeric paper values; Figs 3/5/6/7: paper qualitative claims vs NS3 measured points",
+  "limitations": [
+    "No invented/digitized numerical values from paper figures",
+    "Paper is a physical Linux testbed with SURGE and Limited Slow Start; NS-3 differs",
+    "Paper >=3 repeats per point; NS3 exactly 1 run/point",
+    "Paper Table I denominator not established equivalent to NS3 enqueue/drop-based formula",
+    "T0 whole-duration Jain is not a simultaneous-flow fairness measure",
+    "All fairness values explicitly refer to 0-600 s"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "t1-yeah-rtt240",
+  "group": "T1",
+  "started_utc": "2026-11-19T16:04:23.673050+00:00",
+  "command": [
+    "./ns3",
+    "run",
+    "scratch/yeah-experiment --flows=2 --capacity=500 --bufferRatio=1 --duration=600 --loss=0 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=yeah --tcp2=yeah --rtt1=240 --rtt2=240 --flow2Start=0 --flow2Stop=600 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h1/t1-yeah-rtt240",
+    "--no-build"
+  ],
+  "returncode": 0,
+  "wall_seconds": 8730.100869,
+  "samples": 60001,
+  "summary_sha256": "44816feda3742eab900a66fb41f1335f1f5bdcfc5abbe3061829abec6eb449e5",
+  "timeseries_sha256": "b0857fc8ee9e63688fa153effa0a876770af3449f49eedd3cc35e73e116edb4e",
+  "status": "PASS",
+  "ended_utc": "2026-11-19T18:21:29.112780+00:00"
+}

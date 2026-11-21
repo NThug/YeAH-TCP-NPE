@@ -1,0 +1,22 @@
+{
+  "id": "t2-yeah-beta1p0",
+  "started_utc": "2026-11-20T04:50:02.347505+00:00",
+  "command": [
+    "./ns3",
+    "run",
+    "scratch/yeah-experiment --flows=2 --capacity=500 --rtt1=80 --rtt2=80 --duration=600 --loss=0 --flow2Start=0 --flow2Stop=600 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=yeah --tcp2=yeah --bufferRatio=1.0 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h2/t2-yeah-beta1p0",
+    "--no-build"
+  ],
+  "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+  "returncode": 0,
+  "samples": 60001,
+  "buffer_packets": 3333,
+  "summary_sha256": "d0f3753bdfab180491593845c8f71f40373fef1395665115e52f1612686360e1",
+  "timeseries_sha256": "a734f1b0815250421354f542d54efdd212be5263041fd7ce20a4ccddcc9f0428",
+  "goodput_total_mbps": 460.99796448,
+  "wire_utilization": 0.9563814833,
+  "normalized_mean_queue": 0.3718175268,
+  "status": "PASS",
+  "wall_seconds": 2656.958985,
+  "ended_utc": "2026-11-20T05:34:42.685128+00:00"
+}

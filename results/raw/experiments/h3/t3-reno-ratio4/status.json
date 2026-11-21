@@ -1,0 +1,22 @@
+{
+  "id": "t3-reno-ratio4",
+  "started_utc": "2026-11-20T07:19:30.096661+00:00",
+  "command": [
+    "./ns3",
+    "run",
+    "scratch/yeah-experiment --flows=2 --capacity=500 --rtt1=25 --bufferRatio=1 --duration=600 --loss=0 --flow2Start=0 --flow2Stop=600 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=reno --tcp2=reno --rtt2=100 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h3/t3-reno-ratio4",
+    "--no-build"
+  ],
+  "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+  "returncode": 0,
+  "samples": 60001,
+  "buffer_packets": 1041,
+  "summary_sha256": "e7d11d0d49639309bd8aff47ac30d2d4c2df2cddab527b52708d7354489f4ded",
+  "timeseries_sha256": "6b404cb9f0da3fd90c904dd1f68d67d99517b0f72a779ea7cb9e03efaa84616d",
+  "goodput_total_mbps": 479.9381713067,
+  "wire_utilization": 0.9956745643,
+  "normalized_mean_queue": 0.4830855908,
+  "status": "PASS",
+  "wall_seconds": 1474.05096,
+  "ended_utc": "2026-11-20T07:44:30.952198+00:00"
+}

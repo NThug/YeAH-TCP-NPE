@@ -1,0 +1,6 @@
+./ns3 run 'scratch/yeah-experiment --flows=2 --capacity=500 --bufferRatio=1 --duration=600 --loss=0 --seed=1 --run=1 --mss=1448 --initialCwnd=10 --initialSsthreshSegments=0 --tcp1=yeah --tcp2=yeah --rtt1=80 --rtt2=80 --flow2Start=60 --flow2Stop=400 --out=/home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h1/t0-yeah-yeah' --no-build
+Node 0 SocketType=ns3::TcpYeah
+Node 1 SocketType=ns3::TcpYeah
+Buffer=3333 packets; nominal BDP=3333.33 packets; duration=600 s
+Goodput1=346.0929 Mbps, Goodput2=111.6533 Mbps, wire utilization=0.9496, queue mean=738.4813, drops=2198, other drops=0, random drops=0
+Saved /home/hung/projects/YeAH-TCP-NPE/results/raw/experiments/h1/t0-yeah-yeah/summary.csv and timeseries.csv

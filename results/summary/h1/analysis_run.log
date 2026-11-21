@@ -1,0 +1,11 @@
+AUDIT PASS: t0-yeah-yeah 60001 samples
+AUDIT PASS: t0-yeah-reno 60001 samples
+AUDIT PASS: t1-yeah-rtt15 60001 samples
+AUDIT PASS: t1-reno-rtt15 60001 samples
+AUDIT PASS: t1-yeah-rtt60 60001 samples
+AUDIT PASS: t1-reno-rtt60 60001 samples
+AUDIT PASS: t1-yeah-rtt240 60001 samples
+AUDIT PASS: t1-reno-rtt240 60001 samples
+VERIFIED H1: 8/8, source and hashes match, metrics recomputed
+OUTPUT: /mnt/data/h1_review/results/summary/h1
+FIGURES: /mnt/data/h1_review/results/figures/h1

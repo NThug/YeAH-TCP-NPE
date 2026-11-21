@@ -1,0 +1,124 @@
+{
+  "batch": "H1",
+  "status": "VALIDATED_FROM_SUBMITTED_ARTIFACTS",
+  "ns3_version": "3.44",
+  "ns3_commit": "43dce6710b8df69685e3479c1d33a571dda714ea",
+  "source_sha256": "460600eea2ba2341df49a284022ebd678d1d32adad5b695b8de93c97c1ff5969",
+  "executable_sha256_recorded": "91c1b8ddc4460d79f1d95855a7692dc67b6c29ae0e50f4bdae319ba6a3775590",
+  "note": "No independent simulator rerun. One seed/run (1/1) per case. T0 Jain over full 600s not suitable as active-flow fairness.",
+  "files": [
+    {
+      "case_id": "t0-yeah-yeah",
+      "source_summary_sha256": "088850f100c003ae65a7a73ad75be22e00d3a6f083164f6497ffa28ae9e0bf63",
+      "source_timeseries_sha256": "986c566d60efd092d38b7495ce2fe02bd89e8af1d19e60418ee141f8039f80c3"
+    },
+    {
+      "case_id": "t0-yeah-reno",
+      "source_summary_sha256": "a1afb091d01b5e0a2dde2fc4365e1a1117dfece939b72fe0e586e1eaefb8ed37",
+      "source_timeseries_sha256": "2589b7a9c41640f4372032a76a8d874ae66ae082e99e8d8b84e06ff98a27d3ee"
+    },
+    {
+      "case_id": "t1-yeah-rtt15",
+      "source_summary_sha256": "b3a48820d9999814bba7a5a069144ebad96e2e8fabd309a2f9bf88ab589cbaab",
+      "source_timeseries_sha256": "be02e33e62e68ea2bc7752bf509a81eaf324314d862be68dec63ba88b8ef7c5f"
+    },
+    {
+      "case_id": "t1-reno-rtt15",
+      "source_summary_sha256": "3b8dbbdf6eef7258172b9930bf97291e1eff55635d3018bc307923e443a2c1c7",
+      "source_timeseries_sha256": "015613090ec6941075e27583391fa9ae99874a5e4f5be0496b842c13a7dc55dc"
+    },
+    {
+      "case_id": "t1-yeah-rtt60",
+      "source_summary_sha256": "c12cd3a45813bb4203fb5502bdf24c014ade646e0e8186548d90592b7d61e2a9",
+      "source_timeseries_sha256": "9ea310f95ae0d224c3a2b2d01a2418b39d703a206fb773615ad39fa4c850dc68"
+    },
+    {
+      "case_id": "t1-reno-rtt60",
+      "source_summary_sha256": "74c9c776c9ef7806e4be24515d12e678ae7e95eda4408dd10192b8f6e8b59e31",
+      "source_timeseries_sha256": "bd5a63208d7e4b504b6d083105a6318fc93eaef1c19bf937da04cf321c551d59"
+    },
+    {
+      "case_id": "t1-yeah-rtt240",
+      "source_summary_sha256": "44816feda3742eab900a66fb41f1335f1f5bdcfc5abbe3061829abec6eb449e5",
+      "source_timeseries_sha256": "b0857fc8ee9e63688fa153effa0a876770af3449f49eedd3cc35e73e116edb4e"
+    },
+    {
+      "case_id": "t1-reno-rtt240",
+      "source_summary_sha256": "175d8c8c85cbd2d66471221aaea5543d63f9008d9cdb97c104973d208f2875f9",
+      "source_timeseries_sha256": "661d4294366a8ef32ccc4b8ac5ef0a77fa180a5c930c541509095fdb10afe7ea"
+    }
+  ],
+  "figures": [
+    {
+      "figure": "t0-yeah-yeah_cwnd",
+      "case_ids": [
+        "t0-yeah-yeah"
+      ],
+      "measure": "cwnd_bytes/1448, mean of 100 samples per second; flow 2 hidden outside observed RX activity",
+      "source": "timeseries.csv or summary.csv in the specified case folders"
+    },
+    {
+      "figure": "t0-yeah-yeah_queue",
+      "case_ids": [
+        "t0-yeah-yeah"
+      ],
+      "measure": "queue_packets/buffer_packets*100, mean of 100 samples per second",
+      "source": "timeseries.csv or summary.csv in the specified case folders"
+    },
+    {
+      "figure": "t0-yeah-reno_cwnd",
+      "case_ids": [
+        "t0-yeah-reno"
+      ],
+      "measure": "cwnd_bytes/1448, mean of 100 samples per second; flow 2 hidden outside observed RX activity",
+      "source": "timeseries.csv or summary.csv in the specified case folders"
+    },
+    {
+      "figure": "t0-yeah-reno_queue",
+      "case_ids": [
+        "t0-yeah-reno"
+      ],
+      "measure": "queue_packets/buffer_packets*100, mean of 100 samples per second",
+      "source": "timeseries.csv or summary.csv in the specified case folders"
+    },
+    {
+      "figure": "t1_rtt_queue",
+      "case_ids": [
+        "t1-yeah-rtt15",
+        "t1-reno-rtt15",
+        "t1-yeah-rtt60",
+        "t1-reno-rtt60",
+        "t1-yeah-rtt240",
+        "t1-reno-rtt240"
+      ],
+      "measure": "queue_over_buffer_pct",
+      "source": "timeseries.csv or summary.csv in the specified case folders"
+    },
+    {
+      "figure": "t1_rtt_wire_utilization",
+      "case_ids": [
+        "t1-yeah-rtt15",
+        "t1-reno-rtt15",
+        "t1-yeah-rtt60",
+        "t1-reno-rtt60",
+        "t1-yeah-rtt240",
+        "t1-reno-rtt240"
+      ],
+      "measure": "wire_utilization_pct",
+      "source": "timeseries.csv or summary.csv in the specified case folders"
+    },
+    {
+      "figure": "t1_rtt_overflow",
+      "case_ids": [
+        "t1-yeah-rtt15",
+        "t1-reno-rtt15",
+        "t1-yeah-rtt60",
+        "t1-reno-rtt60",
+        "t1-yeah-rtt240",
+        "t1-reno-rtt240"
+      ],
+      "measure": "overflow_per_million_attempts",
+      "source": "timeseries.csv or summary.csv in the specified case folders"
+    }
+  ]
+}
